@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
+// #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
@@ -10,6 +10,8 @@
 #include <sys/wait.h>
 #include <stdbool.h>
 #include <ctype.h>
+
+
 
 char *read_user_input (void);
 void free2DArray(char **array);
